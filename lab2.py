@@ -5,7 +5,6 @@ import threading
 
 queue = Queue()
 res_queue = Queue()
-lock = threading.Lock()
 
 class WorkerItem:
     def __init__(self, foo) -> None:
